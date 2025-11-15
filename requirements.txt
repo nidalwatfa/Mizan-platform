@@ -1,0 +1,11 @@
+# Mizan Python Core Dependencies
+# إدارة النماذج والعمليات (LLM loading and runtime)
+accelerate
+transformers
+
+# إدارة ملفات الإعدادات والتحقق من صحة البيانات (Configuration and Data Validation)
+pydantic
+pyyaml
+
+# أدوات المعالجة اللغوية الأساسية (Basic NLP utilities)
+scikit-learn
