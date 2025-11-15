@@ -1,0 +1,30 @@
+{
+  "name": "mizan-cli",
+  "version": "0.1.0-alpha",
+  "description": "CLI and SDK for Mizan Platform: A robust framework for evaluating Arabic LLMs and AI Agents.",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "mizan": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "llm",
+    "arabic",
+    "ai",
+    "mlops",
+    "evaluation",
+    "typescript"
+  ],
+  "author": "Nidal Watfa",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.20",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
